@@ -53,8 +53,12 @@
 </style>
 <body>
     <form>
-        <label for="name">Name:</label>
+        <label for="name">First Name:</label>
         <input type="text" id="name" name="name" required>
+
+        <!-- added last name feature -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
@@ -68,7 +72,10 @@
             <option value="female">Female</option>
             <option value="other">Other</option>
         </select>
-
+        <!-- added new feature mobile number -->
+        <label for="number">Mobile:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
         <button type="submit">Submit</button>
     </form>
 </body>
